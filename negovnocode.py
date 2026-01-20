@@ -7,7 +7,8 @@ def g(x):
 
 
 def function_zero(f, a, b):
-    """Returns zero of f between a and b. Assumes f(a) < 0, f(b) > 0."""
+    """Returns zero of f between a and b. Assumes that f(a) < 0, f(b) > 0."""
+    """ ищет нуль функции f на отрезке [a,b], когда f(a) < 0, f(b) > 0"""
     while abs(b - a) > 1e-6:
         c = (a + b) / 2
         fc = f(c)
@@ -18,6 +19,7 @@ def function_zero(f, a, b):
     return (a + b) / 2
 
 
+"""интеграл от a до b"""
 def integrate(f, a, b):
     res = 0
     t = a
