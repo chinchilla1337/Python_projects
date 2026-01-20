@@ -1,3 +1,5 @@
+"""немного теории перестановок"""
+
 import time
 import math
 
