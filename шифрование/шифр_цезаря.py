@@ -1,3 +1,5 @@
+"""шифрует или расшифровывает английское или русское сообщение с помощью шифра Цезаря"""
+
 eng = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
 ENG = eng.upper()
 ru = "абвгдежзийклмнопрстуфхцчшщъыьэюяабвгдежзийклмнопрстуфхцчшщъыьэюя"
@@ -72,3 +74,4 @@ if "р" in lan:
 else:
     for step in range(1,26):
         print(english(mess, dir, step))
+
