@@ -20,3 +20,4 @@ def generate_passwords(count, length):
 
 n, m = int(input()), int(input())
 print(*generate_passwords(n, m), sep="\n")
+
